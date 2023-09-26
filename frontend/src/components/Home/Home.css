@@ -1,0 +1,38 @@
+.home{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 5vh 0 0 0;
+    height: 100px !important;
+}
+
+.home__left{
+    margin: 6vh 0 0 12vw;
+    padding: 14px;
+    flex: 0.4;
+    font-size: 25px;
+}
+
+.home__right{
+    flex: 0.6;
+    background-image: url('../images/Building.png');
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 78vh;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 5vh 3vw 0 5vw;
+}
+
+.home__line1 > p{
+    font-size: 5vmax;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-right: 1vw;
+}
+
+.home__line2 > p{
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 3vh 2vw 0 0;
+    font-size: 1vmax;
+    color: #808080;
+}

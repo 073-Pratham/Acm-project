@@ -1,0 +1,42 @@
+.searchBox{
+    display: flex;
+    flex-direction: row;
+    margin: 5vh 0 0 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 4vmax;
+    padding: auto;
+    border-radius: 10px;
+    width: 75vw;
+    margin-top: 40px;
+    max-width: 560px;
+    background-color: #FFFFFF;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.searchBox:first-child{
+    color: #3454D2;
+    padding-left: 8px;
+}
+
+.searchBox > input[type="text"]{
+    flex: 0.8;
+    padding: auto;
+    margin: 0 1vw 0 1vw;
+    font-size: medium;
+    border:none;
+    outline-width: 0;
+}
+
+input[type="submit"]{
+    flex: 0.2;
+    background-color: #3454D2;
+    border: 1px solid white;
+    text-transform: inherit;
+    color: white;
+    height: 3vmax;
+    border-radius: 6px;
+    margin: 0 1vw 0 0;
+    font-size: large;
+}

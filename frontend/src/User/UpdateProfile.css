@@ -1,0 +1,100 @@
+.updateprofileContainer {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    max-width: 100%;
+    background-color: white;
+  }
+  
+  .updateprofileContainer > div {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .updateprofileContainer > div > h1 {
+    color: rgba(0, 0, 0, 0.555);
+    font: 500 2.2vmax;
+    transform: translateX(-10vmax) translateY(-2vmax);
+  }
+  
+  .updateprofileContainer > div > img {
+    width: 20vmax;
+    border-radius: 100%;
+    transition: all 0.5s;
+  }
+  
+  .updateprofileContainer > div > img:hover {
+    transform: scale(1.05);
+  }
+  
+  .updateprofileContainer > div > a {
+    border: none;
+    background-color: #3454D2;
+    font: 400 1vmax;
+    color: white;
+    text-decoration: none;
+    padding: 0.5vmax;
+    width: 30%;
+    margin: 4vmax;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  
+  .updateprofileContainer > div > a:hover {
+    background-color: #5770d3;
+  }
+  
+  .profile__heading{
+    font-size: x-large;
+    color: black !important;
+  }
+  .updateProfile > .searchBox{
+    display: flex;
+    flex-direction: row;
+    margin: 5vh 0 0 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 4vmax;
+    padding: auto;
+    border-radius: 10px;
+    width: 30vw;
+    margin-top: 40px;
+    max-width: 560px;
+    background-color: #FFFFFF;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+  .profileContainer > div > div > input[type="text"]{
+    flex: 0.8;
+    padding: auto;
+    margin: 0 1vw 0 1vw;
+    font-size: medium;
+    border:none;
+    outline-width: 0;
+}
+  
+  @media screen and (max-width: 600px) {
+    .updateprofileContainer {
+      flex-direction: column;
+    }
+  
+    .updateprofileContainer > div > h1 {
+      font: 500 3.2vmax;
+      transform: translateY(-2vmax);
+    }
+  
+    .updateprofileContainer > div > a {
+      font: 400 1.7vmax;
+      padding: 1vmax;
+    }
+  }
+  

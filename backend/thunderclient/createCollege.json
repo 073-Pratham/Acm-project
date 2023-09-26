@@ -1,0 +1,61 @@
+{
+    "name": "Sri Guru Gobind Singh College Of Commerce",
+    "state": "Delhi",
+    "country": "India",
+    "ratings": 2,
+    "infrastructure": "The labs are so good and the buildings are well maintained",
+    "nearestPlace": "NSP metro station",
+    "nirfRanking": 159,
+    "promoted": true,
+    "placement": "No Placement",
+    "alumnis": [
+        {
+            "name": "Pratham",
+            "passOutYear": 2023,
+            "course": "Bsc Computer Science hons",
+            "jobStatus": "Currently Unemployed"
+        }
+    ],
+    "reviews":[
+        {
+            "name": "Pratham",
+            "rating": 3,
+            "comment": "Take admission at your own risk"
+        }
+    ],
+    "images":[
+        {
+        "public_id": "we",
+        "url":"https://rukminim1.flixcart.com/image/714/857/jlsc58w0/shirt/8/e/n/xl-partywear-n-t-fashion-original-imaf8u2vs5guqjsa.jpeg?q=50"
+        }
+    ],
+    "courses":[
+        {
+            "courseName": "Bcom",
+            "fee": 24000,
+            "feeCycle": "Year Wise",
+            "packages": 2.4,
+            "courseRatings": 5,
+            "reviews":[{
+                    "name":"Pratham",
+                    "rating":3,
+                    "comment":"Take admission at your own risk"
+                }
+            ]
+        },
+        {
+            "courseName": "Bsc",
+            "fee": 1.3,
+            "feeCycle": "Year Wise",
+            "packages": 3,
+            "courseRatings": 4,
+            "reviews":[{
+                    "name":"Pratham",
+                    "rating":1,
+                    "comment":"Again Take admission at your own risk"
+                }
+            ]
+        }
+    ]
+
+}

@@ -1,0 +1,81 @@
+.header{
+    height: 100vh;
+    /* background-image: linear-gradient(to bottom , #3B3B3B , #101010 , #101010 , #101010);
+    background-image: url('https://i.pinimg.com/736x/46/72/d8/4672d86fa0676442108247fabd4fed35.jpg');
+    background-size: cover; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__up{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__heading{
+    flex: 0.32;
+    margin: 6vh 0 0 7vw;
+    font-size: large;
+    padding: 14px;
+    color: rgb(240, 239, 239);
+    font-weight: 600;
+}
+
+.header__options{
+    display: flex;
+    flex-direction: row;
+    flex: 0.78;
+    margin: 6vh 0 0 7vw;
+    justify-content: center;
+    color: #808080;
+}
+
+.header__options > p{
+    display: block;
+    margin: 0 0 0 2vw;
+    margin-bottom: auto;
+    cursor: pointer;
+    font: 400 2vmax;
+    padding: 14px;
+}
+
+.header__options > p > svg{
+    padding: 0px;
+    font-size: x-large;
+}
+
+p > a{
+    text-decoration: none;
+    color: #808080;
+}
+
+.loginSignup{
+    background-color: #3454D2;
+    border: none;
+    border-radius: 4px;
+    padding: 14px;
+    color: rgb(235, 229, 229);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* building image */
+/* https://images.unsplash.com/photo-1543071293-d91175a68672?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVpbGRpbmclMjBleHRlcmlvcnxlbnwwfHwwfHw%3D&w=1000&q=80 */
